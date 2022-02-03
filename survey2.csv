@@ -1,0 +1,563 @@
+﻿asked_volunteer,volunteer_county,complete_volunteer,completed_county,employed,employed_nursing
+Yes,,Yes,"	Robeson",,
+No,"	Richmond",,,Yes,Yes – part time
+Yes,,No,,No,
+Yes,,Yes,"	Person",Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+No,"	Cabarrus,	Mecklenburg",,,Yes,Yes – full time
+No,"	Forsyth,	Guilford",,,Yes,Yes – full time
+No,"	Union",,,No,
+No,"	Brunswick,	New Hanover,	Onslow,	Pender",,,No,
+No,"	Wayne",,,Yes,Yes – full time
+No,"	Mecklenburg,	Union",,,Yes,Yes – full time
+No,"	Buncombe",,,Yes,Yes – full time
+No,"	Guilford",,,No,
+Yes,,No,,No,
+No,"	Chatham,	Cumberland,	Hoke,	Moore",,,No,
+Yes,,Yes,"	Durham,	Guilford",No,
+No,"Alexander,	Alleghany,	Ashe,	Buncombe,	Cherokee,	Clay,	Wilkes,	Yadkin",,,Yes,Yes – full time
+No,"	Mecklenburg,	Watauga",,,Yes,No
+No,"	Mecklenburg",,,No,
+No,"	Mecklenburg",,,No,
+No,All counties,,,Yes,Yes – full time
+Yes,,Yes,"	Cabarrus,	Mecklenburg",Yes,Yes – part time
+No,"	Harnett,	Wake",,,No,
+No,"	Iredell,	Mecklenburg",,,Yes,Yes – full time
+No,"	Cleveland",,,Yes,Yes – full time
+Yes,,Yes,"	Davie",No,
+No,"	Mecklenburg,	Union",,,Yes,Yes – full time
+Yes,,Yes,"	Robeson,	Scotland",Yes,Yes – full time
+No,"	Lee",,,No,
+No,"	Johnston,	Nash,	Wake",,,No,
+No,"	Brunswick,	Columbus,	New Hanover,	Pender",,,No,
+No,"	Craven",,,No,
+No,"	Carteret,	Craven,	Pamlico,	Pasquotank,	Perquimans",,,Yes,Yes – full time
+No,"	Buncombe,	Haywood,	Henderson,	McDowell,	Madison,	Transylvania",,,Yes,Yes – full time
+No,"	Forsyth",,,No,
+No,"	Cumberland,	Hoke",,,No,
+No,"	Wake",,,No,
+No,"	Surry",,,Yes,Yes – part time
+No,"	Johnston,	Nash,	Wayne,	Wilson",,,Yes,Yes – full time
+No,"	Durham,	Johnston,	Wake",,,No,
+No,"	Carteret,	Johnston,	Wake",,,Yes,Yes – full time
+No,"	Cabarrus,	Gaston,	Lincoln,	Mecklenburg",,,Yes,Yes – full time
+No,"	Pitt",,,No,
+No,"Alamance,	Orange",,,No,
+Yes,,Yes,"	Yadkin",Yes,Yes – full time
+Yes,,Yes,"	Johnston",Yes,Yes – full time
+Yes,,Yes,"	Chatham,	Orange",Yes,No
+No,"	Johnston",,,Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Buncombe",No,
+No,"	Buncombe,	Franklin,	Henderson,	McDowell,	Madison",,,Yes,Yes – full time
+No,"	Chatham,	Orange",,,Yes,No
+No,"	Hoke,	Lee,	Moore,	Richmond,	Scotland",,,Yes,Yes – full time
+No,"	Buncombe,	Chatham,	Orange",,,No,
+No,"	Buncombe,	Henderson,	Transylvania",,,Yes,Yes – part time
+No,"	Cabarrus,	Gaston,	Mecklenburg,	Rowan",,,Yes,Yes – full time
+Yes,,Yes,"	Orange",Yes,No
+Yes,,Yes,"	Wake",Yes,No
+Yes,,No,,Yes,Yes – full time
+No,"	Mecklenburg",,,Yes,Yes – full time
+No,"	Wake",,,No,
+No,"	Cherokee,	Clay,	Franklin,	Graham",,,Yes,Yes – full time
+Yes,,Yes,"	Cabarrus",Yes,Yes – part time
+No,"	Beaufort,	Carteret,	Craven",,,Yes,Yes – full time
+Yes,,Yes,Alamance,Yes,Yes – full time
+No,"	Granville,	Vance",,,No,
+No,"	Davidson,	Guilford",,,Yes,Yes – full time
+No,"	Gaston",,,No,
+No,"	Cabarrus,	Mecklenburg",,,No,
+No,"	Craven",,,Yes,Yes – part time
+No,"	Iredell,	Mecklenburg",,,No,
+Yes,,Yes,"	Buncombe",No,
+No,"	Brunswick",,,Yes,Yes – full time
+No,"	Forsyth",,,Yes,Yes – full time
+No,"	Durham,	Orange",,,No,
+Yes,,Yes,"	Cabarrus",Yes,Yes – full time
+Yes,,Yes,"	Lincoln",No,
+No,"	Mecklenburg",,,Yes,Yes – part time
+No,"	Burke,	Caldwell,	Catawba,	Gaston,	Lincoln",,,No,
+No,"	Buncombe,	Jackson,	Macon,	Swain",,,No,
+Yes,,Yes,"	Granville,	Mecklenburg,	Wake",Yes,Yes – full time
+No,"	Transylvania",,,No,
+No,"	Brunswick",,,No,
+No,"	Person",,,No,
+No,"	Henderson",,,No,
+No,"	New Hanover,	Pender",,,No,
+No,"Alamance,	Durham,	Orange,	Person",,,Yes,Yes – full time
+Yes,,Yes,"	Johnston",Yes,Yes – full time
+Yes,,No,,Yes,Yes – part time
+No,"	Wake",,,Yes,Yes – part time
+No,"	Surry,	Yadkin",,,No,
+No,"	Gaston,	Mecklenburg,	Union",,,Yes,Yes – part time
+Yes,,No,,Yes,Yes – full time
+Yes,,Yes,"	Johnston,	Wake",Yes,Yes – full time
+No,"Alamance,	Forsyth,	Guilford,	Randolph,	Rockingham",,,Yes,Yes – full time
+No,"	New Hanover",,,Yes,Yes – part time
+No,"	Harnett,	Johnston,	Wilson",,,Yes,Yes – part time
+Yes,,No,,No,
+Yes,,Yes,"Alamance,	Guilford,	Orange",Yes,Yes – part time
+Yes,,Yes,"	Davidson",No,
+Yes,,Yes,"	Buncombe",No,
+No,"	Carteret,	Craven",,,Yes,Yes – full time
+No,"	Brunswick",,,No,
+Yes,,Yes,"	Franklin,	Lee,	Wake",Yes,Yes – full time
+Yes,,Yes,"	Durham,	Johnston,	Lee,	Wake",Yes,No
+Yes,,Yes,"	Dare",Yes,Yes – part time
+No,"	Durham,	Orange,	Wake",,,No,
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Mecklenburg",No,
+Yes,,Yes,"	Edgecombe,	Johnston",No,
+Yes,,Yes,"	Dare",No,
+No,"	Wake",,,No,
+Yes,,No,,No,
+No,"Alamance,	Durham,	Orange,	Person,	Wake",,,No,
+Yes,,Yes,"	Durham",Yes,Yes – full time
+,,,,,
+Yes,,Yes,"	Cumberland",No,
+No,"	Brunswick,	New Hanover,	Pender",,,No,
+No,"	Carteret,	New Hanover,	Onslow,	Pender",,,No,
+No,"Alamance,	Chatham,	Durham,	Franklin,	Granville,	Nash,	Orange,	Wake,	Wilson",,,Yes,Yes – full time
+No,"	Cumberland",,,No,
+No,"	Davie,	Forsyth,	Rowan",,,Yes,Yes – full time
+Yes,,No,,No,
+Yes,,Yes,"	Orange",No,
+Yes,,Yes,"	Orange",No,
+No,"	Transylvania",,,No,
+No,"	Chatham",,,Yes,Yes – full time
+No,"	Lincoln",,,No,
+No,"	Buncombe,	Henderson",,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Mecklenburg,	Union",,,Yes,Yes – full time
+No,"	Guilford,	Rockingham",,,Yes,No
+Yes,,Yes,"	Cabarrus",Yes,Yes – part time
+Yes,,Yes,"	Davidson",Yes,Yes – part time
+No,"	Guilford",,,No,
+No,"	Johnston,	Wake",,,Yes,Yes – full time
+Yes,,No,,No,
+Yes,,Yes,"	Davidson",No,
+No,"	Davie,	Forsyth,	Yadkin",,,No,
+No,"	Lincoln,	Mecklenburg",,,No,
+No,"	Wake",,,No,
+No,"	Cumberland,	Hoke,	Moore,	New Hanover,	Richmond,	Robeson,	Rockingham,	Sampson,	Scotland",,,No,
+Yes,,Yes,"	Watauga",No,
+No,"	Gaston",,,Yes,Yes – full time
+Yes,,Yes,"	Currituck",Yes,Yes – part time
+No,"	Gaston,	Lincoln",,,No,
+No,"	Rutherford",,,No,
+No,"	Davidson,	Rowan",,,No,
+No,"	Cabarrus,	Mecklenburg",,,Yes,Yes – full time
+No,"	Camden,	Currituck,	Pasquotank",,,No,
+No,"	Mecklenburg,	Union",,,Yes,Yes – part time
+No,"	Harnett,	Lee",,,Yes,Yes – part time
+No,"	Lee,	Moore",,,No,
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Polk",No,
+No,"	Catawba,	Lincoln",,,No,
+No,"	Alleghany,	Ashe,	Davie,	Yadkin",,,Yes,Yes – part time
+No,"	Carteret",,,Yes,Yes – full time
+No,"	Henderson",,,Yes,Yes – part time
+Yes,,Yes,"	Warren",No,
+Yes,,Yes,"	Wake",Yes,Yes – part time
+No,"	Mecklenburg",,,Yes,Yes – part time
+No,"	Wake",,,No,
+Yes,,Yes,"	Buncombe",No,
+No,"	Brunswick,	New Hanover",,,Yes,Yes – full time
+No,"	Chatham",,,No,
+No,"	Davidson,	Davie,	Forsyth,	Guilford,	Stokes,	Surry,	Wilkes,	Yadkin",,,Yes,Yes – full time
+Yes,,Yes,"	Wake",Yes,Yes – full time
+No,"	Cumberland",,,Yes,Yes – part time
+Yes,,Yes,"	Lee",Yes,Yes – part time
+No,"	Cabarrus,	Mecklenburg",,,No,
+No,"	Brunswick,	Davidson,	Davie,	Forsyth,	Guilford,	Mecklenburg,	New Hanover,	Pender,	Stokes,	Surry,	Wake",,,Yes,No
+No,"	Brunswick",,,No,
+No,"Alexander,	Iredell",,,Yes,Yes – full time
+Yes,,Yes,"	Carteret",No,
+Yes,,No,,No,
+No,"	New Hanover",,,No,
+Yes,,No,,No,
+No,"	Jackson,	Macon",,,Yes,Yes – full time
+No,"	Durham,	Wake",,,Yes,Yes – full time
+No,"	Wake",,,No,
+No,"	Cherokee,	Clay,	Haywood,	Jackson,	Swain,	Transylvania",,,Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+No,"	Wake",,,Yes,Yes – part time
+Yes,,Yes,Alamance,Yes,Yes – part time
+No,"	Henderson",,,No,
+Yes,,Yes,"	Carteret",No,
+No,"	Brunswick",,,No,
+Yes,,No,,No,
+No,"	Brunswick",,,No,
+Yes,,No,,No,
+Yes,,No,,Yes,Yes – full time
+No,"	Gaston",,,No,
+No,"	Franklin,	Granville,	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Orange",No,
+Yes,,Yes,"	Davidson",Yes,Yes – full time
+No,"	Wake",,,No,
+No,"	Pender",,,No,
+Yes,,Yes,"	Guilford",No,
+No,"	New Hanover",,,Yes,Yes – full time
+Yes,,Yes,"	Buncombe",Yes,Yes – part time
+No,"	Craven,	Duplin,	Durham,	Johnston,	Jones,	Lenoir,	Pamlico,	Pitt,	Wake,	Wayne,	Wilson",,,No,
+No,All counties,,,Yes,Yes – full time
+No,"	Davidson,	Forsyth,	Stokes",,,No,
+No,"	Ashe,	Watauga",,,Yes,Yes – part time
+No,"	Henderson,	Polk",,,Yes,No
+Yes,,No,,No,
+Yes,,Yes,"	Cabarrus",No,
+No,"	Wake",,,Yes,Yes – full time
+No,"	Durham,	Wake",,,No,
+Yes,,Yes,"	Buncombe",No,
+No,"	New Hanover,	Onslow,	Pender",,,Yes,Yes – full time
+Yes,,Yes,"	Brunswick",No,
+Yes,,Yes,"	Watauga",Yes,Yes – part time
+Yes,,No,,No,
+Yes,,Yes,"	Onslow",No,
+No,"	Surry",,,Yes,Yes – full time
+Yes,,Yes,"	Edgecombe",Yes,Yes – part time
+No,"	Catawba",,,No,
+No,"	Guilford",,,Yes,Yes – full time
+No,"	Forsyth",,,No,
+No,"	Durham,	Harnett,	Johnston,	Orange,	Wake",,,Yes,Yes – full time
+No,"	Cumberland,	Harnett,	Johnston,	Robeson,	Wake",,,No,
+Yes,,Yes,"	Cabarrus",Yes,Yes – full time
+No,"	Chatham,	Harnett,	Lee,	Moore",,,No,
+Yes,,No,,No,
+Yes,,No,,No,
+No,"	Jackson,	Macon,	Swain",,,No,
+No,"	Brunswick,	Rowan",,,No,
+Yes,,Yes,"	Wilkes",Yes,Yes – full time
+No,"	Beaufort,	Brunswick,	Edgecombe,	New Hanover,	Pender,	Pitt",,,No,
+No,"	Gaston,	Mecklenburg",,,No,
+No,"	Buncombe",,,No,
+No,"	Wake",,,No,
+No,"	Mecklenburg,	Union",,,Yes,Yes – part time
+Yes,,Yes,"	Durham",Yes,Yes – full time
+No,"	New Hanover",,,Yes,Yes – full time
+No,"	Wake",,,No,
+,,,,,
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Polk",Yes,Yes – full time
+No,"	Forsyth",,,No,
+No,"	Catawba",,,Yes,Yes – part time
+No,"	Forsyth,	Guilford,	Rockingham",,,Yes,Yes – full time
+No,"	Mecklenburg",,,Yes,Yes – part time
+No,"	Duplin,	Pender",,,No,
+Yes,,Yes,"	Orange",Yes,No
+No,"	Mecklenburg,	Union",,,Yes,Yes – full time
+No,"	Durham,	Wake",,,No,
+Yes,,Yes,"	Guilford",No,
+No,"	Davidson,	Davie,	Randolph,	Rowan",,,No,
+Yes,,Yes,"	Wilkes",No,
+Yes,,Yes,"	Johnston,	Wake",No,
+No,"	Buncombe,	Henderson,	Madison",,,No,
+Yes,,Yes,"	Wake",Yes,No
+No,"	Lee,	New Hanover",,,Yes,Yes – full time
+Yes,,Yes,"	Orange",No,
+No,"	Cabarrus,	Rowan,	Stanly",,,No,
+No,"	Nash",,,No,
+Yes,,No,,No,
+Yes,,Yes,Alamance,No,
+Yes,,No,,No,
+No,"	Franklin,	Wake",,,No,
+No,"	Harnett,	Johnston,	Wake",,,No,
+No,"	Jackson,	Macon",,,Yes,Yes – full time
+No,All counties,,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Lincoln,	Watauga",,,Yes,No
+No,"	Wake",,,Yes,Yes – full time
+No,"	Wake",,,Yes,Yes – full time
+Yes,,No,,Yes,Yes – part time
+Yes,,No,,Yes,Yes – full time
+No,"	Guilford",,,No,
+No,"	Wayne",,,Yes,Yes – part time
+Yes,,No,,Yes,Yes – full time
+No,"	Wake",,,Yes,Yes – full time
+No,"	Cleveland,	Gaston",,,Yes,Yes – part time
+No,"	Craven,	Pamlico",,,Yes,No
+No,"	Cumberland,	Hoke,	Sampson",,,No,
+No,"	Brunswick",,,No,
+Yes,,Yes,"	Cabarrus",No,
+No,"	Mecklenburg",,,Yes,No
+No,"	Brunswick",,,Yes,Yes – part time
+No,"	Catawba",,,Yes,Yes – part time
+No,"	New Hanover,	Perquimans",,,Yes,Yes – part time
+Yes,,No,,No,
+No,"	Clay,	Jackson,	Macon,	Swain",,,No,
+Yes,,Yes,"	Carteret",No,
+No,"	Lincoln,	Mecklenburg",,,Yes,Yes – part time
+No,All counties,,,Yes,Yes – full time
+No,"	Chatham,	Wake",,,No,
+No,"	Burke",,,No,
+No,"	Cumberland,	Robeson",,,Yes,Yes – full time
+No,"	New Hanover,	Onslow,	Pender",,,No,
+No,"	Carteret,	Craven",,,No,
+No,"	Mecklenburg",,,Yes,Yes – part time
+No,"	Ashe,	Avery,	Watauga",,,No,
+Yes,,Yes,"	Durham,	Orange,	Person",No,
+No,"	Wake",,,No,
+No,"Alexander,	Burke,	Caldwell",,,Yes,Yes – full time
+Yes,,Yes,Wayne,Yes,Yes – part time
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Lee",Yes,Yes – part time
+Yes,,Yes,"	Orange",Yes,Yes – part time
+No,"	Davie,	Forsyth",,,Yes,Yes – full time
+Yes,,Yes,"	Wake",Yes,Yes – full time
+No,"	Columbus",,,Yes,Yes – full time
+No,"	Brunswick,	New Hanover,	Pender",,,No,
+No,"	Granville",,,Yes,Yes – full time
+No,"	Davidson,	Forsyth",,,Yes,Yes – part time
+No,"	Gaston",,,No,
+No,"	Buncombe,	Haywood,	Swain",,,Yes,Yes – part time
+No,"	Guilford",,,No,
+Yes,,,,Yes,Yes – full time
+Yes,,Yes,Wayne,No,
+Yes,,Yes,"	Carteret",Yes,Yes – part time
+No,"	Buncombe,	Cherokee,	Henderson,	McDowell,	Polk,	Transylvania",,,Yes,Yes – full time
+Yes,,Yes,"	Cabarrus",Yes,No
+Yes,,Yes,"	Onslow",Yes,Yes – part time
+Yes,,Yes,"	New Hanover",Yes,Yes – part time
+No,"	Mecklenburg,	Union",,,No,
+Yes,,Yes,"	Guilford",Yes,Yes – part time
+No,"	Mecklenburg",,,Yes,Yes – full time
+No,"	Iredell",,,No,
+No,"	Brunswick,	New Hanover,	Pender",,,Yes,Yes – full time
+Yes,,Yes,"	Guilford,	Randolph",Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+No,"	Brunswick",,,Yes,Yes – full time
+Yes,,Yes,"	Orange",Yes,Yes – full time
+Yes,,Yes,"	Durham,	Granville,	Wake",No,
+Yes,,Yes,"	Davidson",Yes,Yes – part time
+No,"	Henderson,	Transylvania",,,No,
+Yes,,No,,No,
+No,Alamance,,,No,
+Yes,,No,,Yes,Yes – part time
+Yes,,Yes,"	Buncombe",No,
+Yes,,Yes,"	Watauga",No,
+Yes,,Yes,"	Johnston",Yes,Yes – part time
+No,"	Orange",,,Yes,Yes – part time
+No,"	Johnston,	Wayne",,,No,
+Yes,,Yes,"	Orange",Yes,Yes – full time
+No,"	Buncombe,	Henderson,	McDowell,	Transylvania",,,No,
+No,"	Chatham",,,Yes,Yes – part time
+Yes,,Yes,"	Wake",No,
+No,"	Buncombe",,,Yes,Yes – full time
+Yes,,Yes,"	Cabarrus",No,
+No,"	Durham,	Orange",,,No,
+No,"	Chatham,	Durham,	Orange,	Wake",,,No,
+No,"	Wake",,,Yes,Yes – full time
+No,"	Forsyth,	Guilford,	Rockingham,	Stokes",,,Yes,Yes – full time
+No,"	Forsyth",,,No,
+No,"	Sampson",,,Yes,Yes – full time
+Yes,,Yes,"	Lee,	Wake",Yes,Yes – part time
+No,"	Montgomery,	Moore,	Richmond",,,No,
+No,,,,,
+Yes,,Yes,,,
+Yes,,Yes,,,
+No,"	Gaston,	Lincoln,	Mecklenburg",,,Yes,Yes – full time
+Yes,,Yes,,,
+No,"Alamance,	Wake",,,No,
+No,"	Mecklenburg",,,No,
+Yes,,Yes,"	Johnston",Yes,No
+No,"	Chatham,	Durham,	Franklin,	Henderson,	Johnston,	Person,	Vance,	Wake",,,Yes,Yes – full time
+No,"	Wake",,,Yes,Yes – full time
+No,"	Alleghany,	Ashe,	Avery,	Watauga",,,No,
+No,"	Brunswick,	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Haywood",No,
+No,"	Chatham,	Durham,	Orange",,,Yes,Yes – part time
+No,"	Catawba",,,Yes,Yes – part time
+No,"	Durham,	Orange,	Wake",,,No,
+No,"	Durham,	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Cabarrus",No,
+No,"	Durham,	Orange",,,Yes,Yes – part time
+Yes,,Yes,"	Polk",No,
+No,"	Davie,	Stokes,	Surry,	Yadkin",,,No,
+No,"	Lenoir",,,No,
+No,"	Ashe,	Avery,	Watauga",,,Yes,Yes – full time
+No,"	Brunswick,	Nash,	New Hanover,	Pamlico",,,No,
+No,"	Carteret",,,Yes,Yes – full time
+No,"	Harnett,	Johnston,	Lee,	Wake,	Wayne,	Wilson",,,Yes,Yes – full time
+Yes,,Yes,"	Buncombe",No,
+Yes,,Yes,"	Buncombe",Yes,Yes – full time
+No,"	Halifax,	Hertford,	Northampton",,,Yes,Yes – full time
+No,"	Cleveland,	Mecklenburg,	Union",,,No,
+Yes,,No,,Yes,Yes – part time
+No,"	Cumberland,	Moore",,,No,
+No,"	Rockingham,	Stokes",,,Yes,Yes – part time
+No,"	Brunswick,	New Hanover,	Pender",,,Yes,Yes – full time
+No,"	Bertie,	Chowan,	Gates,	Hertford",,,No,
+Yes,,Yes,"	Buncombe",No,
+Yes,,Yes,"	Johnston,	Wake",Yes,Yes – part time
+Yes,,No,,Yes,Yes – part time
+Yes,,Yes,"	Moore",No,
+No,"	New Hanover,	Pender",,,No,
+No,"	Greene,	Lenoir,	Pitt,	Wayne",,,Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+Yes,,No,,No,
+No,"	Carteret,	Chatham,	Durham,	Granville,	Halifax,	Wake",,,Yes,Yes – full time
+No,"	Ashe,	Durham,	Wake,	Watauga",,,Yes,Yes – part time
+No,"	Cabarrus,	Cleveland,	Mecklenburg,	Union",,,Yes,Yes – full time
+No,"	Beaufort,	Brunswick,	Buncombe,	Cherokee,	Cleveland,	Gaston,	Haywood,	Lincoln,	Mecklenburg,	Swain",,,Yes,Yes – part time
+No,"	Wake",,,No,
+No,"	Forsyth,	Stokes",,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Edgecombe",,,Yes,Yes – full time
+No,"	Buncombe,	Henderson,	Madison",,,No,
+No,"	Wake",,,No,
+Yes,,No,,Yes,Yes – full time
+No,"	Franklin,	Vance,	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Chatham,	Wake",No,
+Yes,,Yes,"	Polk",Yes,Yes – full time
+Yes,,Yes,"	Caldwell",No,
+Yes,,No,,Yes,Yes – full time
+No,"	Buncombe,	Graham,	Haywood,	Henderson,	McDowell,	Madison,	Transylvania",,,No,
+No,,,,,
+No,"	Iredell,	Mecklenburg",,,No,
+No,"	Alleghany,	Ashe,	Watauga",,,No,
+No,"	Carteret",,,No,
+No,"	Union",,,Yes,Yes – full time
+Yes,,Yes,"	Wake",Yes,Yes – part time
+No,"	Mecklenburg",,,No,
+No,"	Cabarrus,	Iredell,	Mecklenburg",,,Yes,Yes – part time
+No,"	New Hanover",,,Yes,No
+No,"	Hertford,	Pitt",,,Yes,Yes – full time
+No,"	Wake",,,Yes,Yes – part time
+No,"	Johnston,	Wake",,,Yes,Yes – full time
+Yes,,No,,Yes,Yes – full time
+Yes,,No,,No,
+Yes,,Yes,"	Wake",No,
+No,"Alamance,	Davidson,	Graham,	Guilford",,,Yes,Yes – full time
+No,"	Brunswick",,,No,
+No,"	Cumberland,	Harnett,	Lee",,,Yes,Yes – full time
+No,"	Buncombe,	Haywood,	McDowell,	Madison",,,Yes,Yes – full time
+No,"	Wake",,,Yes,No
+Yes,,Yes,"	Davidson,	Forsyth",Yes,Yes – part time
+No,"	Wake",,,No,
+Yes,,Yes,"	Mecklenburg,	Union",Yes,Yes – full time
+Yes,,Yes,"	Orange",Yes,Yes – full time
+Yes,,Yes,"	Beaufort",No,
+Yes,,Yes,"	Durham",Yes,Yes – full time
+No,"	Buncombe",,,No,
+Yes,,No,,Yes,No
+No,"	Brunswick",,,No,
+Yes,,No,,No,
+No,"	Wake",,,Yes,Yes – full time
+No,Alamance,,,Yes,Yes – full time
+No,"	Haywood,	Jackson,	Swain",,,Yes,Yes – part time
+No,"	Cumberland",,,Yes,Yes – part time
+No,"	Johnston,	Lenoir,	Pitt,	Wake,	Wayne",,,Yes,Yes – part time
+No,"	New Hanover,	Pender",,,Yes,Yes – full time
+No,"	Durham,	Johnston,	Orange,	Wake",,,Yes,Yes – full time
+No,"	Cumberland,	Harnett,	Sampson",,,Yes,No
+Yes,,Yes,"	Guilford",No,
+No,"	Alleghany,	Stokes,	Surry",,,Yes,Yes – full time
+No,"	Henderson",,,Yes,No
+Yes,,No,,No,
+No,Alamance,,,Yes,Yes – part time
+No,"Alexander,	Catawba,	Iredell,	Lincoln",,,No,
+Yes,,Yes,"	Polk",Yes,Yes – full time
+No,"	Mecklenburg,	Watauga",,,No,
+Yes,,Yes,"	Cabarrus",Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+No,"Alamance,	Durham,	Orange",,,Yes,Yes – full time
+No,"	Mecklenburg",,,No,
+No,"	Guilford",,,Yes,Yes – full time
+No,"	Cleveland",,,No,
+No,"	Ashe,	Franklin,	Johnston,	Wake",,,No,
+Yes,,Yes,"	Lee",Yes,Yes – part time
+Yes,,Yes,"	Orange",No,
+No,"	Buncombe",,,Yes,Yes – part time
+Yes,,No,,,
+No,"	Brunswick,	New Hanover",,,Yes,Yes – part time
+No,"	Gaston,	Mecklenburg",,,No,
+Yes,,No,,Yes,Yes – part time
+Yes,,Yes,"	Davidson",Yes,Yes – full time
+No,"	Mecklenburg",,,Yes,Yes – full time
+No,"	Buncombe",,,Yes,Yes – full time
+No,"	Brunswick",,,Yes,Yes – part time
+No,"	Brunswick,	New Hanover",,,Yes,Yes – part time
+No,"	Iredell,	Mecklenburg",,,No,
+Yes,,Yes,"	New Hanover",No,
+No,"	Durham,	Franklin,	Granville,	Halifax,	Johnston,	Nash,	Vance,	Wake,	Wilson",,,No,
+No,"	Rockingham",,,Yes,Yes – full time
+No,"	Durham,	Harnett,	Johnston,	Orange,	Sampson,	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Durham",Yes,No
+No,"	Johnston,	Wake",,,Yes,No
+No,"	Beaufort,	Bertie,	Carteret,	Pitt",,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Chatham",,,No,
+Yes,,No,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Cumberland",,,Yes,Yes – full time
+No,"	Brunswick,	Columbus,	New Hanover,	Robeson",,,No,
+Yes,,Yes,"	Montgomery",Yes,No
+No,"	Wake",,,Yes,Yes – part time
+Yes,,No,,No,
+No,"	Wake",,,Yes,Yes – full time
+Yes,,Yes,Alamance,No,
+No,All counties,,,Yes,Yes – full time
+No,"	Edgecombe,	Nash",,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Brunswick,	Mecklenburg",,,Yes,No
+No,"Alamance,	Durham,	Orange",,,No,
+Yes,,Yes,"	Durham",Yes,Yes – full time
+Yes,,Yes,"	Wake",No,
+No,"	Jones,	New Hanover,	Onslow,	Pender",,,Yes,Yes – full time
+No,"	Guilford",,,Yes,Yes – full time
+Yes,,No,,Yes,Yes – full time
+Yes,,No,,No,
+No,"	Johnston,	Wake",,,No,
+No,"	Durham,	Orange,	Wake",,,Yes,Yes – full time
+No,"	Duplin,	Onslow",,,Yes,Yes – full time
+No,"	Iredell",,,Yes,Yes – part time
+Yes,,No,,No,
+No,"	Durham,	Orange",,,Yes,Yes – full time
+No,,,,,
+Yes,,No,,No,
+Yes,,Yes,"	Buncombe,	Jackson",No,
+Yes,,No,,No,
+No,"	Brunswick,	New Hanover,	Onslow,	Pender",,,Yes,No
+No,"	Wake",,,Yes,Yes – full time
+Yes,,Yes,"	Carteret",Yes,Yes – full time
+No,"	Mecklenburg,	Union",,,No,
+No,"	Montgomery",,,Yes,Yes – full time
+Yes,,Yes,"	Durham",Yes,No
+No,"	Cleveland,	Davidson,	Gaston,	Lincoln,	Mecklenburg",,,Yes,Yes – part time
+Yes,,No,,Yes,Yes – full time
+Yes,,Yes,"	Jones",No,
+No,"	Durham,	Orange",,,No,
+No,"	Carteret,	Johnston,	Lenoir,	Wayne",,,No,
+No,"	Chatham,	Durham,	Granville,	Orange,	Person",,,Yes,Yes – full time
+No,"	Iredell,	Lincoln,	Mecklenburg,	Stanly",,,No,
+,,,,Yes,Yes – full time
+No,"	Craven,	Pitt",,,No,
+No,"Alamance,	Beaufort,	Franklin,	Granville,	Nash,	Person,	Vance,	Wake,	Warren",,,Yes,No
+No,"	Davidson,	Rowan,	Stanly",,,Yes,Yes – full time
+No,"	Stokes,	Surry,	Wilkes,	Yadkin",,,No,
+Yes,,No,,Yes,Yes – full time
+No,"	Buncombe",,,No,
+No,"	Durham,	Wake",,,Yes,Yes – full time
+No,"	Brunswick,	Columbus,	New Hanover,	Onslow,	Pender",,,Yes,Yes – part time
+Yes,,No,,,
+No,"	Brunswick,	New Hanover",,,No,
+No,"	Wilson",,,Yes,Yes – full time
+No,"	Cabarrus,	Gaston,	Iredell,	Rowan",,,Yes,Yes – part time
+No,"	Pitt",,,Yes,Yes – part time
+Yes,,No,,No,
+No,"	Gaston,	Mecklenburg,	Union",,,Yes,Yes – full time
+Yes,,Yes,"	Brunswick",No,
+No,"	Granville,	Vance",,,Yes,Yes – part time
+No,"	Brunswick,	Randolph",,,Yes,Yes – full time
+No,"	Brunswick,	New Hanover",,,Yes,
+No,"	Bladen,	Columbus,	Robeson",,,Yes,
+Yes,,Yes,"	Dare",Yes,Yes – part time
+No,,,,,
+No,,,,,
+Yes,,Yes,"	Cabarrus",No,
+Yes,,Yes,"	Wake",,
+No,"	Wake",,,No,
+No,,,,,
+No,,,,,
+No,"Alexander,	Burke,	Catawba,	Iredell,	Lincoln",,,Yes,Yes – full time

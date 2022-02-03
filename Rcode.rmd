@@ -1,0 +1,100 @@
+---
+title: "NC Nursing Volunteer"
+author: "Feiya Suo"
+date: "2/1/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(shiny)
+library(leaflet)
+library(dplyr)
+library(leaflet.extras)
+```
+
+# Read data
+```{r}
+survey1 <- read.csv("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/survey1.csv")
+survey2 <- read.csv("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/survey2.csv")
+county <- read.csv("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/county.csv")
+```
+
+# Data Cleaning
+## clean survey 1
+```{r}
+# split volunteer county
+survey1$volunteer_county = as.character(survey1$volunteer_county)
+temp = survey1 %>% separate(volunteer_county, into = as.character(c(1:100)), sep = "," ) %>%
+  mutate(id = row_number()) 
+ind.survey1 = temp %>% pivot_longer(cols = c(as.character(1:100),"primary_county"), values_to = "volunteer_county", names_to = "x") %>%
+  mutate(volunteer_county = sub("[^[:alnum:]]+","",volunteer_county)) %>%
+  mutate(volunteer_county = sub(" ","",volunteer_county)) %>%
+ filter(!is.na(volunteer_county)) %>%
+  group_by(id, volunteer_county) %>%
+  filter(row_number()==1) %>%
+  select(-x) %>%
+  ungroup()
+
+# aggregate at county
+count.survey1 = ind.survey1 %>% group_by(volunteer_county) %>%
+  summarise(NP = sum(credentials=="NP"),
+            RN = sum(credentials=="RN"),
+            Retired = sum(credentials=="Retired"),
+            LPN = sum(credentials=="LPN"),
+            NAII = sum(credentials=="NAII"),
+            Other = sum(credentials=="Other, please specify:"),
+            Active = sum(license=="Active"),
+            Inactive = sum(license=="Inactive"),
+            available_volunteer = n())
+all = as.matrix(count.survey1[4,c(2:8)])
+count.survey1[,c(2:8)] = count.survey1[,c(2:8)] + rep(all,each=102)
+count.survey1 = count.survey1[-4,]
+count.survey1 = count.survey1[-1,]
+```
+
+## Clean survey 2
+```{r}
+# split volunteer county
+survey2$completed_county = as.character(survey2$completed_county)
+temp = survey2 %>% separate(completed_county, into = as.character(c(1:100)), sep = "," ) %>%
+  mutate(id = row_number()) 
+ind.survey2 = temp %>% pivot_longer(cols = c(as.character(1:4)), values_to = "completed_county", names_to = "x") %>%
+  mutate(completed_county = sub("[^[:alnum:]]+","",completed_county)) %>%
+  mutate(completed_county = sub(" ","",completed_county)) %>%
+ filter(!is.na(completed_county)) %>%
+  group_by(id, completed_county) %>%
+  filter(row_number()==1) %>%
+  select(-x) %>%
+  ungroup()
+
+## aggregate at county
+count.survey2 = ind.survey2 %>% group_by(completed_county) %>%
+  summarise(Employed = sum(employed=="Yes"),
+            Unemployed = sum(employed=="No"),
+            FullTime_nurse = sum(employed_nursing=="Yes – full time"),
+            PartTime_nurse = sum(employed_nursing=="Yes – part time"),
+            Other_job = sum(employed_nursing=="No"),
+            volunteered = n())
+count.survey2 = count.survey2[-1,]
+
+```
+
+# Merge data
+```{r}
+data1 <- merge(count.survey1, count.survey2, all = TRUE, 
+               by.x="volunteer_county", by.y = "completed_county")
+data1$volunteered <- ifelse(is.na(data1$volunteered)==TRUE,0,data1$volunteered)
+data1$volunteer_county[data1$volunteer_county=="NewHanover"] <- "New Hanover"
+
+data <- merge(data1, county, by.x = "volunteer_county", by.y = "County")
+write.csv(data, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/CountyLevel_data.csv")
+```
+
+# Re-read data
+```{r}
+```
+
+# Shinny Map
+

@@ -1,0 +1,101 @@
+﻿County,region_category,Population,Vaccinated_count,Vaccinated-percent
+Mecklenburg,Urban,"1,054,314","675,317",64.05%
+Wake,Urban,"1,046,558","784,394",74.95%
+Guilford,Urban,"523,582","318,305",60.79%
+Forsyth,Urban,"371,573","228,620",61.53%
+Cumberland,Regional City and Suburban,"332,106","194,801",58.66%
+Durham,Urban,"306,457","220,047",71.80%
+Buncombe,Regional City and Suburban,"254,474","169,238",66.51%
+Union,Regional City and Suburban,"226,694","128,733",56.79%
+New Hanover,Urban,"224,231","144,029",64.23%
+Gaston,Regional City and Suburban,"216,585","109,802",50.70%
+Cabarrus,Regional City and Suburban,"201,448","118,643",58.90%
+Onslow,Regional City and Suburban,"193,912","116,343",60.00%
+Johnston,Rural,"191,172","106,564",55.74%
+Pitt,Regional City and Suburban,"177,372","94,082",53.04%
+Iredell,Regional City and Suburban,"172,525","92,662",53.71%
+Davidson,Regional City and Suburban,"164,664","77,518",47.08%
+Alamance,Regional City and Suburban,"160,576","95,981",59.77%
+Catawba,Regional City and Suburban,"156,729","85,231",54.38%
+Randolph,Rural,"142,958","61,285",42.87%
+Orange,Regional City and Suburban,"142,938","112,479",78.69%
+Rowan,Regional City and Suburban,"139,605","61,095",43.76%
+Robeson,Rural,"133,442","53,201",39.87%
+Harnett,Rural,"130,361","55,156",42.31%
+Brunswick,Rural,"126,860","86,068",67.84%
+Wayne,Rural,"124,002","57,585",46.44%
+Henderson,Regional City and Suburban,"113,625","66,468",58.50%
+Craven,Rural,"103,082","61,106",59.28%
+Cleveland,Rural,"97,159","47,238",48.62%
+Moore,Rural,"95,629","58,074",60.73%
+Nash,Rural,"94,003","53,128",56.52%
+Rockingham,Rural,"91,270","44,130",48.35%
+Burke,Rural,"89,712","41,079",45.79%
+Caldwell,Rural,"81,779","37,606",45.98%
+Lincoln,Regional City and Suburban,"81,441","40,558",49.80%
+Wilson,Rural,"81,336","42,309",52.02%
+Surry,Rural,"72,099","36,174",50.17%
+Chatham,Rural,"69,791","44,600",63.91%
+Carteret,Rural,"68,920","43,052",62.47%
+Wilkes,Rural,"68,460","31,148",45.50%
+Rutherford,Rural,"66,532","27,217",40.91%
+Franklin,Rural,"64,902","34,816",53.64%
+Sampson,Rural,"63,561","31,377",49.37%
+Stanly,Rural,"61,114","26,195",42.86%
+Haywood,Rural,"60,433","34,762",57.52%
+Lee,Rural,"60,125","33,698",56.05%
+Duplin,Rural,"59,062","25,478",43.14%
+Pender,Rural,"59,020","32,061",54.32%
+Granville,Rural,"58,874","36,236",61.55%
+Lenoir,Rural,"57,227","29,379",51.34%
+Columbus,Rural,"56,293","24,039",42.70%
+Watauga,Rural,"54,117","30,353",56.09%
+Edgecombe,Rural,"53,332","23,990",44.98%
+Hoke,Rural,"53,239","21,326",40.06%
+Halifax,Rural,"51,737","25,807",49.88%
+Beaufort,Rural,"47,243","25,211",53.36%
+Stokes,Rural,"45,905","20,719",45.13%
+Richmond,Rural,"45,189","20,747",45.91%
+McDowell,Rural,"45,109","23,409",51.89%
+Vance,Rural,"44,482","24,279",54.58%
+Jackson,Rural,"42,256","23,295",55.13%
+Davie,Rural,"41,991","23,647",56.31%
+Pasquotank,Rural,"39,479","20,802",52.69%
+Person,Rural,"39,305","21,462",54.60%
+Yadkin,Rural,"37,665","18,087",48.02%
+Alexander,Rural,"37,119","16,630",44.80%
+Dare,Rural,"35,741","27,105",75.84%
+Scotland,Rural,"35,262","15,798",44.80%
+Macon,Rural,"34,410","20,549",59.72%
+Bladen,Rural,"33,778","19,957",59.08%
+Transylvania,Rural,"33,513","18,447",55.04%
+Cherokee,Rural,"27,668","15,706",56.77%
+Montgomery,Rural,"27,338","11,177",40.88%
+Ashe,Rural,"26,786","14,112",52.68%
+Currituck,Rural,"25,796","15,765",61.11%
+Anson,Rural,"25,306","10,992",43.44%
+Hertford,Rural,"24,153","11,062",45.80%
+Martin,Rural,"23,054","11,400",49.45%
+Caswell,Rural,"22,746","11,007",48.39%
+Madison,Rural,"21,405","12,123",56.64%
+Greene,Rural,"21,008","12,567",59.82%
+Polk,Rural,"20,458","8,918",43.59%
+Northampton,Rural,"20,186","9,096",45.06%
+Warren,Rural,"20,033","10,639",53.11%
+Bertie,Rural,"19,644","9,466",48.19%
+Yancey,Rural,"17,667","9,074",51.36%
+Avery,Rural,"17,501","9,249",52.85%
+Mitchell,Rural,"15,040","7,268",48.32%
+Swain,Rural,"14,254","7,753",54.39%
+Chowan,Rural,"14,205","7,630",53.71%
+Perquimans,Rural,"13,459","6,314",46.91%
+Pamlico,Rural,"12,742","7,038",55.23%
+Washington,Rural,"12,156","5,584",45.94%
+Gates,Rural,"11,563","5,875",50.81%
+Alleghany,Rural,"10,973","6,394",58.27%
+Clay,Rural,"10,813","5,878",54.36%
+Camden,Rural,"10,447","6,448",61.72%
+Jones,Rural,"9,695","4,916",50.71%
+Graham,Rural,"8,557","4,063",47.48%
+Hyde,Rural,"5,393","3,190",59.15%
+Tyrrell,Rural,"4,119","1,926",46.76%
