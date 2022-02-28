@@ -89,7 +89,29 @@ data1$volunteered <- ifelse(is.na(data1$volunteered)==TRUE,0,data1$volunteered)
 data1$volunteer_county[data1$volunteer_county=="NewHanover"] <- "New Hanover"
 
 data <- merge(data1, county, by.x = "volunteer_county", by.y = "County")
-write.csv(data, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/CountyLevel_data.csv")
+write.csv(data, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/raw_data.csv")
+```
+
+# calculate metrics
+```{r}
+final <- data[,c(1,10)]
+final$percent_available <- 
+  data$available_volunteer/as.numeric(gsub(",","",as.character(data$Population)))
+final$volunteered <- data$volunteered
+final$binary_volunteered <-ifelse(final$volunteered>0,1,0)
+final$percent_volunteered <- data$volunteered/data$available_volunteer
+final$Vaccinated_count <- data$Vaccinated_count
+final$Vaccinated.percent <- data$Vaccinated.percent
+final$percent_NP <- data$NP/data$available_volunteer
+final$percent_RN <- data$RN/data$available_volunteer
+final$percent_LPN<- data$LPN/data$available_volunteer
+final$percent_NAII<- data$NAII/data$available_volunteer
+final$percent_Other <- data$Other/data$available_volunteer
+final$percent_retired <- data$Retired/data$available_volunteer
+final$ratio_active <- data$Active/(data$Active + data$Inactive)
+
+
+write.csv(final, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/CountyLevel_data.csv")
 ```
 
 # Re-read data

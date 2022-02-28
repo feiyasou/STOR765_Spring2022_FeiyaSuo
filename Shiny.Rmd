@@ -1,0 +1,36 @@
+---
+title: "Shiny App"
+author: "Feiya Suo"
+date: "2/7/2022"
+output: html_document
+---
+
+```{r}
+#install.packages("shiny")
+#install.packages("mapproj")
+library(shiny)
+library(maps)
+library(mapproj)
+library(ggplot2)
+library(tidyverse)
+```
+
+```{r}
+#raw <- read.csv('/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/raw_data.csv')
+data <- read.csv('/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/CountyLevel_data.csv') %>%
+  mutate(volunteer_county = tolower(volunteer_county))
+nc_map <- map_data("county") %>% filter(region=="north carolina") %>% rename(volunteer_county=subregion)
+data_map = nc_map %>% left_join(data, by = ("volunteer_county"))
+
+#source("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/nurse/helpers.R")
+ggplot(data_map, aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill= percent_NP), colour = "white") +
+  scale_x_continuous(breaks = seq(-80, -70, 1), labels = function(x){paste0(x, "°")}) +
+  scale_y_continuous(breaks = seq(33, 37, 1), labels = function(x){paste0(x, "°")}) +
+  scale_fill_gradient(name = "NP",low = "lightblue", high="dodgerblue4") +
+  labs(title="Fertility Rate, 2000",
+       y="Latitude", x="Longitude"
+  ) +
+  theme_light() 
+
+```
