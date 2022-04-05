@@ -64,6 +64,11 @@ ggplot(data, aes(x=available_volunteer, y=Vaccinated.percent)) +
   geom_smooth(method=lm)+ 
   labs(x = "# of Available Volunteers", y = "Vaccination Coverage Rate")
 
+ggplot(data, aes(x=percent_available, y=Vaccinated.percent)) +
+  geom_point() + 
+  geom_text(label=data$volunteer_county, size=2, vjust=2) +
+  geom_smooth(method=lm)+ 
+  labs(x = "% of Available Volunteers", y = "Vaccination Coverage Rate")
 
 ggplot(data, aes(x=volunteered, y=Vaccinated.percent)) +
   geom_point() + 
@@ -71,23 +76,31 @@ ggplot(data, aes(x=volunteered, y=Vaccinated.percent)) +
   geom_smooth(method=lm)+ 
   labs(x = "# of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
 
-
+ggplot(data, aes(x=percent_volunteered, y=Vaccinated.percent)) +
+  geom_point() + 
+  geom_text(label=data$volunteer_county, size=2, vjust=2) +
+  geom_smooth(method=lm)+ 
+  labs(x = "% of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
 
 ggplot(data, aes(x=proportion_volunteered, y=Vaccinated.percent)) +
   geom_point() + 
   geom_text(label=data$volunteer_county, size=2, vjust=2) +
   geom_smooth(method=lm)+ 
-  labs(x = "% of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
+  labs(x = "Proportion of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
 ```
 
 # Hypothesis testing
 ```{r}
 cor(data$Vaccinated.percent, data$available_volunteer)
-m1 <- lm(data$Vaccinated.percent ~ data$available_volunteer)
+m1 <- lm(data$Vaccinated.percent ~ data$percent_available)
 summary(m1)
+m1_1 <- lm(data$Vaccinated.percent ~ data$available_volunteer)
+summary(m1_1)
 
 m2 <- lm(data$Vaccinated.percent ~ data$volunteered)
 summary(m2)
+m2_1 <- lm(data$Vaccinated.percent ~ data$percent_volunteered)
+summary(m2_1)
 
 m3 <- lm(data$Vaccinated.percent ~ data$proportion_volunteered)
 summary(m3)
@@ -125,6 +138,7 @@ final$percent_Other <- region_data$Other/region_data$available_volunteer
 final$percent_retired <- region_data$Retired/region_data$available_volunteer
 final$ratio_active <- region_data$Active/(region_data$Active + region_data$Inactive)
 
+write.csv(final, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/RegionLevel_data.csv")
 ```
 
 ## Scatterplots
@@ -135,6 +149,11 @@ ggplot(final, aes(x=available_volunteer, y=Vaccinated.percent)) +
   geom_smooth(method=lm)+ 
   labs(x = "# of Available Volunteers", y = "Vaccination Coverage Rate")
 
+ggplot(final, aes(x=percent_available, y=Vaccinated.percent)) +
+  geom_point() + 
+  geom_text(label=final$AHEC.region, size=2, vjust=2) +
+  geom_smooth(method=lm)+ 
+  labs(x = "% of Available Volunteers", y = "Vaccination Coverage Rate")
 
 ggplot(final, aes(x=volunteered, y=Vaccinated.percent)) +
   geom_point() + 
@@ -142,20 +161,29 @@ ggplot(final, aes(x=volunteered, y=Vaccinated.percent)) +
   geom_smooth(method=lm)+ 
   labs(x = "# of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
 
-
 ggplot(final, aes(x=percent_volunteered, y=Vaccinated.percent)) +
   geom_point() + 
   geom_text(label=final$AHEC.region, size=2, vjust=2) +
   geom_smooth(method=lm)+ 
   labs(x = "% of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
+
+ggplot(final, aes(x=percent_volunteered, y=Vaccinated.percent)) +
+  geom_point() + 
+  geom_text(label=final$AHEC.region, size=2, vjust=2) +
+  geom_smooth(method=lm)+ 
+  labs(x = "Proportion of Nurses who Actually Volunteered", y = "Vaccination Coverage Rate")
 ```
 
 ## Hypothesis testing
 ```{r}
 m1 <- lm(final$Vaccinated.percent ~ final$available_volunteer)
 summary(m1)
+m1_1 <- lm(final$Vaccinated.percent ~ final$percnet_available)
+summary(m1)
 
 m2 <- lm(final$Vaccinated.percent ~ final$volunteered)
+summary(m2)
+m2_1 <- lm(final$Vaccinated.percent ~ final$percent_volunteered)
 summary(m2)
 
 m3 <- lm(final$Vaccinated.percent ~ final$percent_volunteered)
