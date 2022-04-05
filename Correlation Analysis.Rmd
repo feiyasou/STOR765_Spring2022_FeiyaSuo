@@ -15,6 +15,8 @@ data <- read.csv("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/C
 ```
 
 # Descriptive Statistics
+In this section, I calculate the descriptive statistics for each variable in the county-level data. The summary of the statistics can be found in the report.
+
 ```{r}
 summary(data$available_volunteer)
 sd(data$available_volunteer)
@@ -54,6 +56,8 @@ sd(data$ratio_active)
 ```
 
 # Scatterplots
+The following figures show the scatter plots between vaccination rates and the variables relevant to volunteer nurses. Each dot represents a datapoint, and the blue line represents the estimated regression line between the two variables. The grey area shows the 95% confidence interval of the estimation. 
+
 ```{r, fig.align="center", echo = FALSE}
 data$proportion_volunteered <- data$volunteered/data$available_volunteer
 
@@ -90,24 +94,36 @@ ggplot(data, aes(x=proportion_volunteered, y=Vaccinated.percent)) +
 ```
 
 # Hypothesis testing
+The analysis here show the correlation between vaccination rate and volunteer nurses. If the p-value is smaller than 0.05, it shows the correlation is significant at 5% level. It indicates that we have strong evidence to reject the null hypothesis that the two variables are independent.
+
 ```{r}
+# number of available volunteers
 cor(data$Vaccinated.percent, data$available_volunteer)
 m1 <- lm(data$Vaccinated.percent ~ data$percent_available)
 summary(m1)
+
+# percentage of available volunteers over county population
 m1_1 <- lm(data$Vaccinated.percent ~ data$available_volunteer)
 summary(m1_1)
 
+# number of nurses who volunteered
 m2 <- lm(data$Vaccinated.percent ~ data$volunteered)
 summary(m2)
+
+# percentage of nurses who volunteered over county population
 m2_1 <- lm(data$Vaccinated.percent ~ data$percent_volunteered)
 summary(m2_1)
 
+# proportion of nurses who volunteered over available volunteers
 m3 <- lm(data$Vaccinated.percent ~ data$proportion_volunteered)
 summary(m3)
+
 ```
 
 # Region level analysis
 ## aggregate data
+Since there are many zeros in the county-level data, I aggregate the data to region level.
+
 ```{r}
 # merge region info
 region <- read.csv("/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/region.csv")
@@ -142,6 +158,8 @@ write.csv(final, "/Users/feiyasuo/Documents/GitHub/STOR765_Spring2022_FeiyaSuo/R
 ```
 
 ## Scatterplots
+The following figures show the scatter plots between vaccination rates and the variables relevant to volunteer nurses. Each dot represents a datapoint, and the blue line represents the estimated regression line between the two variables. The grey area shows the 95% confidence interval of the estimation. 
+
 ```{r}
 ggplot(final, aes(x=available_volunteer, y=Vaccinated.percent)) +
   geom_point() + 
@@ -175,17 +193,26 @@ ggplot(final, aes(x=percent_volunteered, y=Vaccinated.percent)) +
 ```
 
 ## Hypothesis testing
+The analysis here show the correlation between vaccination rate and volunteer nurses. If the p-value is smaller than 0.05, it shows the correlation is significant at 5% level. It indicates that we have strong evidence to reject the null hypothesis that the two variables are independent.
+
 ```{r}
+# number of available volunteers
 m1 <- lm(final$Vaccinated.percent ~ final$available_volunteer)
 summary(m1)
-m1_1 <- lm(final$Vaccinated.percent ~ final$percnet_available)
-summary(m1)
 
+# percentage of available volunteers over county population
+m1_1 <- lm(final$Vaccinated.percent ~ final$percent_available)
+summary(m1_1)
+
+# number of nurses who volunteered
 m2 <- lm(final$Vaccinated.percent ~ final$volunteered)
 summary(m2)
-m2_1 <- lm(final$Vaccinated.percent ~ final$percent_volunteered)
-summary(m2)
 
+# percentage of nurses who volunteered over county population
+m2_1 <- lm(final$Vaccinated.percent ~ final$percent_volunteered)
+summary(m2_1)
+
+# proportion of nurses who volunteered over available volunteers
 m3 <- lm(final$Vaccinated.percent ~ final$percent_volunteered)
 summary(m3)
 ```
